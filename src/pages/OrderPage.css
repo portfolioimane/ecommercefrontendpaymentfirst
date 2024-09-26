@@ -1,0 +1,96 @@
+.order-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.sidebarcustomer {
+  width: 25%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebarcustomer h2 {
+  margin-bottom: 15px;
+}
+
+.sidebarcustomer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebarcustomer li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sidebarcustomer li:hover {
+  background-color: #f1f1f1;
+}
+
+.content {
+  width: 70%;
+}
+
+.order-content {
+  margin-top: 20px;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.orders-table th,
+.orders-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.orders-table th {
+  background-color: #e6b800; /* Green header */
+  color: white;
+}
+
+.orders-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+.orders-table tr:hover {
+  background-color: #ddd; /* Grey background on hover */
+}
+
+.edit-button,
+.cancel-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.2s;
+}
+
+.edit-button {
+  background-color: #007bff; /* Blue color */
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #e6b800; /* Darker blue on hover */
+}
+
+.cancel-button {
+  background-color: #e6b800; /* Red color */
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #e6b800; /* Darker red on hover */
+}

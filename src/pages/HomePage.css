@@ -1,0 +1,45 @@
+
+.product-card {
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover */
+}
+
+.product-card:hover {
+    transform: translateY(-5px); /* Move card up on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Add shadow */
+}
+
+.btn-custom {
+    background-color: #e6b800 !important; /* Yellow background color */
+    color: white; /* White text color */
+    border: none !important; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn-custom:hover {
+    background-color: #d4a600; /* Darken on hover */
+}
+
+.testimonial-card {
+    background-color: #f8f9fa; /* Light background for testimonials */
+    border: 1px solid #e6b800; /* Yellow border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+blockquote {
+    font-style: italic; /* Italic style for testimonials */
+    color: #555; /* Darker text color */
+}
+
+blockquote footer {
+    font-weight: bold; /* Bold font for footer */
+    color: #e6b800; /* Yellow color */
+}
+
+/* Add responsive adjustments if needed */
+@media (max-width: 576px) {
+    .icon-container {
+        margin-bottom: 20px; /* Margin for small screens */
+    }
+}

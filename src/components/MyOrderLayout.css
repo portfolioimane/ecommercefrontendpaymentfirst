@@ -1,0 +1,32 @@
+.order-layout {
+  display: flex;
+}
+
+.sidebarcustomer {
+  width: 200px; /* Adjust as needed */
+  padding: 20px;
+  background-color: #f4f4f4; /* Sidebar background color */
+}
+
+.sidebarcustomer h2 {
+  margin-bottom: 10px;
+}
+
+.sidebarcustomer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebarcustomer li {
+  margin: 10px 0;
+}
+
+.sidebarcustomer a {
+  text-decoration: none;
+  color: #333; /* Link color */
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}

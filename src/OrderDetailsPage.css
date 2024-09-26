@@ -1,0 +1,22 @@
+.order-details-page {
+  padding: 20px;
+}
+
+.order-info {
+  margin-bottom: 20px;
+}
+
+.order-items-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-items-table th,
+.order-items-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.order-items-table th {
+  background-color: #f2f2f2;
+}

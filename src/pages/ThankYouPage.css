@@ -1,0 +1,69 @@
+.thank-you-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* White background */
+}
+
+.thank-you-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.success-icon {
+    font-size: 2rem;
+    color: #E6B800; /* Yellow color for the success icon */
+    margin-right: 10px;
+}
+
+.order-details {
+    background: #f8f9fa; /* Light gray background for the order summary */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to the left for better readability */
+}
+
+.order-info {
+    margin-bottom: 15px;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between table cells */
+    margin-top: 10px;
+}
+
+.order-table th, .order-table td {
+    border: 1px solid #ddd; /* Add border to cells */
+    padding: 12px; /* Add padding to cells */
+    text-align: left; /* Align text to the left */
+}
+
+.order-table th {
+    background-color: #E6B800; /* Yellow background for headers */
+    color: white; /* White text for headers */
+}
+
+.order-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+.back-home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #E6B800; /* Yellow background for the button */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.back-home-button:hover {
+    background: #d5a700; /* Darker shade of yellow on hover */
+}
